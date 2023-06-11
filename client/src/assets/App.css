@@ -1,0 +1,30 @@
+:root {
+	--background-primary: #111118;
+	--background-seconadry: #191923;
+	--status-red: #df2935;
+	--status-green: #36b950;
+	--status-yellow: #e9da51;
+	--status-gray: #858585;
+	--text-primary: #ffffff;
+	--text-secondary: #ffffff80;
+}
+
+body, #root {
+	margin: 0;
+}
+
+.page {
+	margin: 0;
+	flex: 1;
+	background-color: var(--background-primary);
+}
+
+#root, .App {
+	height: 100vh;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+}
+
