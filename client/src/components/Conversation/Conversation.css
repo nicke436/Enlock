@@ -1,0 +1,60 @@
+.Conversation {
+	margin: 0.5rem 0 0.5rem 0;
+	width: 95%;
+	min-height: min-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.Conversation__img__container {
+	position: relative;
+}
+
+.Conversation__img {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+}
+
+.Conversation__status {
+	position: absolute;
+	top: 65%;
+	right: 0%;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.Conversation__data__container {
+	width: 85%;
+}
+
+.Conversation__data__name {
+	color: var(--text-primary);
+	margin: 0;
+}
+
+.Conversation__data__quote {
+	color: var(--text-secondary);
+	margin: 0;
+}
+
+.Conversation__status__online {
+	background-color: var(--status-green);
+}
+
+.Conversation__status__away {
+	background-color: var(--status-yellow);
+}
+
+.Conversation__status__doNotDisturb {
+	background-color: var(--status-red);
+}
+
+.Conversation__status__offline {
+	background-color: var(--status-gray);
+}
